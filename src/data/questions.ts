@@ -14,32 +14,11 @@ export const questions: Question[] = [
   },
   {
     question:
-      "Qual das seguintes opções é uma característica fundamental do JavaScript?",
-    options: [
-      "Possui tipagem estática.",
-      "É um banco de dados relacional.",
-      "É uma linguagem de programação orientada a objetos.",
-      "Utiliza a sintaxe de tags para marcar elementos HTML.",
-    ],
-    answer: 2,
-  },
-  {
-    question:
       "Qual dos seguintes métodos é usado para adicionar um elemento ao final de um array em JavaScript?",
     options: ["pop()", "shift()", "unshift()", "push()"],
     answer: 3,
   },
-  {
-    question:
-      "Qual das seguintes opções é uma forma correta de escrever um comentário em JavaScript?",
-    options: [
-      "** Este é um comentário **",
-      "<!-- Este é um comentário -->",
-      "// Este é um comentário",
-      "/* Este é um comentário */",
-    ],
-    answer: 2,
-  },
+
   {
     question:
       "Qual das seguintes opções é uma função incorporada do JavaScript que converte uma string em um número inteiro?",
@@ -69,12 +48,7 @@ export const questions: Question[] = [
     options: ["<ul>", "<ol>", "<li>", "<div>"],
     answer: 0,
   },
-  {
-    question:
-      "Qual das seguintes propriedades CSS é usada para definir a cor do texto?",
-    options: ["font-size", "text-align", "background-color", "color"],
-    answer: 3,
-  },
+
   {
     question:
       "Qual das seguintes propriedades CSS é usada para definir a largura de um elemento?",
@@ -95,21 +69,8 @@ export const questions: Question[] = [
 
   {
     question:
-      "Qual propriedade CSS é usada para definir o espaçamento interno de um elemento?",
-    options: ["margin", "padding", "border", "width"],
-    answer: 1,
-  },
-
-  {
-    question:
       "Qual evento JavaScript é acionado quando o usuário clica em um elemento?",
     options: ["click", "hover", "keydown", "scroll"],
-    answer: 0,
-  },
-
-  {
-    question: "Qual elemento HTML é usado para criar uma tabela?",
-    options: ["<table>", "<div>", "<ul>", "<form>"],
     answer: 0,
   },
 
