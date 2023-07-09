@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quiz de Perguntas e Respostas - Aplicação React com TypeScript, Next.js e Tailwind CSS
 
-## Getting Started
+Este é um aplicativo de quiz de perguntas e respostas construído utilizando React, TypeScript, Next.js e Tailwind CSS. Com esta aplicação, os usuários podem participar de quizzes interativos, responder a perguntas e verificar suas respostas corretas.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- Exibição de perguntas e opções de resposta.
+- Verificação de respostas corretas e pontuação.
+- Navegação entre as perguntas.
+- Feedback visual para respostas corretas e incorretas.
+- Finalização do quiz com exibição da pontuação total.
+
+## Pré-requisitos
+
+- Node.js (versão 12 ou superior)
+- Yarn (opcional, pode-se usar npm)
+
+## Instalação
+
+1. Clone o repositório ou faça o download do código-fonte.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências executando o seguinte comando:
+
+```
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ou
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Executando a aplicação
 
-## Learn More
+Após a instalação, você pode iniciar a aplicação localmente. Execute o seguinte comando:
 
-To learn more about Next.js, take a look at the following resources:
+```
+yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ou
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run dev
+```
 
-## Deploy on Vercel
+Isso iniciará a aplicação no modo de desenvolvimento. Abra o navegador e acesse `http://localhost:3000` para visualizar o aplicativo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Personalização do Quiz
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Você pode personalizar o quiz alterando as perguntas e opções de resposta no arquivo `data/questions.ts`. Este arquivo contém uma matriz de objetos de perguntas, onde cada objeto representa uma pergunta com suas opções de resposta e a resposta correta.
+
+## Tecnologias utilizadas
+
+- React: Biblioteca JavaScript para construção de interfaces de usuário.
+- TypeScript: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+- Next.js: Framework React para criação de aplicativos web.
+- Tailwind CSS: Framework CSS utilitário para criação de estilos rápidos e responsivos.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar problemas, bugs ou tiver sugestões de melhorias, fique à vontade para abrir uma issue ou enviar um pull request.
