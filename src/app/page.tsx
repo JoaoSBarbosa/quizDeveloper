@@ -34,11 +34,11 @@ const Home = () => {
       className="w-full flex justify-center items-center bg-gradient-to-r from-indigo-500 to-purple-500"
       style={showResult ? { height: "100%" } : { height: "100vh" }}
     >
-      <div className="w-full max-w-2xl rounded-md bg-white text-black shadow shadow-black m-1">
-        <div className="text-center p-5 font-bold text-2xl border-b border-gray-300">
+      <div className="w-full max-w-2xl rounded-md bg-white  text-black shadow shadow-black mx-3 md:mx-1">
+        <div className="text-center p-5 font-bold text-2xl  border-b border-gray-300">
           {!showResult ? "{ Developer Quiz }" : "<> Respostas </>"}
         </div>
-        <div className="p-5">
+        <div className="p-5 ">
           {!showResult && (
             <QuestionItem
               question={questions[currentQuestion]}
