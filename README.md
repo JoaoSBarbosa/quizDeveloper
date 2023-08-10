@@ -3,7 +3,10 @@
 Este é um aplicativo de quiz de perguntas e respostas construído utilizando React, TypeScript, Next.js e Tailwind CSS. Com esta aplicação, os usuários podem participar de quizzes interativos, responder a perguntas e verificar suas respostas corretas.
 
 
-  ![GitHub language count](https://img.shields.io/github/languages/count/JoaoSBarbosa/quizDeveloper) ![GitHub top language](https://img.shields.io/github/languages/top/JoaoSBarbosa/quizDeveloper)
+  ![GitHub language count](https://img.shields.io/github/languages/count/JoaoSBarbosa/quizDeveloper) 
+  ![GitHub top language](https://img.shields.io/github/languages/top/JoaoSBarbosa/quizDeveloper)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/JoaoSBarbosa/quizDeveloper)
+
 
 
 
